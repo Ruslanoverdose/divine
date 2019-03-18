@@ -1,34 +1,24 @@
 /*
 Error: Undefined variable: "$blackColor".
-        on line 14 of sass/sections/navigation.sass
+        on line 14 of C:/Front-end/div/sass/sections/navigation.sass
 
-9:         padding: 34px 10px
-10:         .nav-link 
-11:             font-size: 16px
-12:             font-weight: 600
-13:             transition: .3s all ease-in-out
-14:             color: $blackColor
-15:             &:hover, 
-16:                 color: $greenLight
-17:         .active 
-18:             color: $greenLight
+9:         transition: .3s all ease-in-out
+10:     .nav-link 
+11:         font-size: 16px
+12:         font-weight: 600
+13:         transition: .3s all ease-in-out
+14:         color: $blackColor
+15:         &:hover, 
+16:             color: $greenLight
+17:     .active 
+18:         color: $greenLight
+19:     .scrollStart
 
 Backtrace:
-sass/sections/navigation.sass:14
+C:/Front-end/div/sass/sections/navigation.sass:14
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -90,4 +80,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blackColor\".\A         on line 14 of sass/sections/navigation.sass\A \A 9:         padding: 34px 10px\A 10:         .nav-link \A 11:             font-size: 16px\A 12:             font-weight: 600\A 13:             transition: .3s all ease-in-out\A 14:             color: $blackColor\A 15:             &:hover, \A 16:                 color: $greenLight\A 17:         .active \A 18:             color: $greenLight"; }
+  content: "Error: Undefined variable: \"$blackColor\".\A         on line 14 of C:/Front-end/div/sass/sections/navigation.sass\A \A 9:         transition: .3s all ease-in-out\A 10:     .nav-link \A 11:         font-size: 16px\A 12:         font-weight: 600\A 13:         transition: .3s all ease-in-out\A 14:         color: $blackColor\A 15:         &:hover, \A 16:             color: $greenLight\A 17:     .active \A 18:         color: $greenLight\A 19:     .scrollStart"; }

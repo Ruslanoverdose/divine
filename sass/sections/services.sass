@@ -1,0 +1,45 @@
+$boxShadow3: 0px 15px 50px 0px rgba(115, 115, 115, 0.2)
+$greenLight: #02ad88
+$silver: #757575
+$blackColor: #1c223a
+$silver2: #eee
+#services
+    .service
+        background: #fff 
+        padding: 10px
+        transition: .2s all ease-in-out
+        border-radius: 3px
+        position: relative
+        bottom: 0
+        &:hover 
+            bottom: 10px
+        a 
+            color: $blackColor
+            &:hover
+                text-decoration: none
+        &:hover
+            box-shadow: $boxShadow3
+        &__block 
+            border: 1px solid $silver2
+            padding: 45px 15px
+            display: flex 
+            box-sizing: border-box
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            transition: .3s all ease-in-out
+            &:hover 
+                border: 1px solid $greenLight
+        &__icon
+            margin-bottom: 10px
+            img 
+                width: 50px
+        &__title 
+            h3 
+                font-size: 1.5rem
+                font-weight: bold
+        &__text 
+            color: $silver
+            font-size: .9rem
+            line-height: 1.2
+            text-align: center
