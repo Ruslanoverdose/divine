@@ -1,0 +1,25 @@
+@keyframes ArrowDown {
+  0% {
+    bottom: 15px; }
+  50% {
+    bottom: 5px; }
+  100% {
+    bottom: 15px; } }
+#header {
+  background-image: url(../img/11.png);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; }
+  #header .next {
+    position: absolute;
+    bottom: 5px;
+    animation: ArrowDown 1s ease-in-out infinite; }
+    #header .next button {
+      border: 0;
+      background: transparent;
+      cursor: pointer; }
+
+/*# sourceMappingURL=header.css.map */

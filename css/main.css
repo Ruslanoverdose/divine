@@ -1,3 +1,46 @@
+#navigation {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 9999; }
+  #navigation nav {
+    padding: 34px 10px; }
+    #navigation nav .nav-link {
+      font-size: 16px;
+      font-weight: 600;
+      transition: 0.3s all ease-in-out;
+      color: #1c223a; }
+      #navigation nav .nav-link:hover {
+        color: #02ad88; }
+    #navigation nav .active {
+      color: #02ad88; }
+
+@keyframes ArrowDown {
+  0% {
+    bottom: 15px; }
+  50% {
+    bottom: 5px; }
+  100% {
+    bottom: 15px; } }
+#header {
+  background-image: url(../img/11.png);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative; }
+  #header .next {
+    position: absolute;
+    bottom: 5px;
+    animation: ArrowDown 1s ease-in-out infinite; }
+    #header .next button {
+      border: 0;
+      background: transparent;
+      cursor: pointer; }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -5,13 +48,39 @@ body {
   font-size: 1.4rem;
   color: #1c223a; }
 
-#navigation {
-  position: fixed;
-  right: 0;
-  top: 0;
-  left: 0;
-  background: transparent; }
-  #navigation nav {
-    padding: 34px 10px; }
+body, html, .wrapper {
+  height: 100%; }
+
+.background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+
+.caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%; }
+  .caption h1, .caption h2, .caption h3, .caption h4, .caption h5 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600; }
+  .caption h5 {
+    font-size: 1.4rem;
+    font-weight: 500; }
+  .caption h1 {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    color: #02ad88; }
+  .caption p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.7; }
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */
