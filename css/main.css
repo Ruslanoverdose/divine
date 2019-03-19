@@ -52,44 +52,87 @@
       background: transparent;
       cursor: pointer; }
 
-#services .service {
-  background: #fff;
-  padding: 10px;
-  transition: 0.2s all ease-in-out;
-  border-radius: 3px;
-  position: relative;
-  bottom: 0; }
-  #services .service:hover {
-    bottom: 10px; }
-  #services .service a {
-    color: #1c223a; }
-    #services .service a:hover {
-      text-decoration: none; }
-  #services .service:hover {
-    box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.2); }
-  #services .service__block {
-    border: 1px solid #eee;
-    padding: 45px 15px;
+#services {
+  margin-bottom: 20px; }
+  #services .service {
+    background: #fff;
+    padding: 10px;
+    transition: 0.2s all ease-in-out;
+    border-radius: 3px;
+    position: relative;
+    bottom: 0; }
+    #services .service:hover {
+      bottom: 10px; }
+    #services .service a {
+      color: #1c223a; }
+      #services .service a:hover {
+        text-decoration: none; }
+    #services .service:hover {
+      box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.2); }
+    #services .service__block {
+      border: 1px solid #eee;
+      padding: 45px 15px;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: 0.3s all ease-in-out; }
+      #services .service__block:hover {
+        border: 1px solid #02ad88; }
+    #services .service__icon {
+      margin-bottom: 10px; }
+      #services .service__icon img {
+        width: 50px; }
+    #services .service__title {
+      margin-bottom: 5px; }
+      #services .service__title h3 {
+        font-size: 1.2rem;
+        font-weight: bold; }
+    #services .service__text {
+      color: #757575;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      text-align: center; }
+
+#portfolio {
+  background-image: url(../img/22.png);
+  height: auto; }
+  #portfolio .works {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  #portfolio .work {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transition: 0.3s all ease-in-out; }
-    #services .service__block:hover {
-      border: 1px solid #02ad88; }
-  #services .service__icon {
-    margin-bottom: 10px; }
-    #services .service__icon img {
-      width: 50px; }
-  #services .service__title h3 {
-    font-size: 1.5rem;
-    font-weight: bold; }
-  #services .service__text {
-    color: #757575;
-    font-size: 0.9rem;
-    line-height: 1.2;
-    text-align: center; }
+    box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: 0.3s all;
+    position: relative;
+    bottom: 0; }
+    #portfolio .work:hover {
+      bottom: 5px;
+      box-shadow: 0 0px 15px 4px rgba(2, 173, 136, 0.15); }
+    #portfolio .work__cover {
+      border-bottom: 1px solid #eee;
+      border-top: 1px solid #eee;
+      margin-bottom: 20px; }
+    #portfolio .work__title {
+      padding: 5px 15px; }
+    #portfolio .work__desc {
+      color: #757575;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      padding: 0 15px; }
+    #portfolio .work__bottom {
+      padding: 0 15px;
+      font-size: 14px;
+      margin-bottom: 10px; }
+    #portfolio .work img {
+      width: 100%; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -101,14 +144,19 @@ body {
 body, html, .wrapper {
   height: 100%; }
 
-.pd50 {
-  padding: 50px 0; }
+.pd70 {
+  padding: 70px 0; }
 
 .background {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover; }
+
+.background2 {
+  background-size: auto;
+  background-position: top right;
+  background-repeat: no-repeat; }
 
 .caption {
   display: flex;
@@ -140,9 +188,21 @@ body, html, .wrapper {
   background-color: #f9faff; }
 
 section .title {
-  text-align: center;
   margin-bottom: 50px; }
   section .title h1 {
     font-weight: bold; }
+
+.customLink {
+  border: 2px solid #02ad88;
+  color: #02ad88;
+  box-shadow: 0px 10px 30px 0px rgba(2, 173, 136, 0.4);
+  padding: 7px 10px;
+  font-weight: 500;
+  transition: 0.3s all; }
+  .customLink:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #017b60;
+    border-color: #017b60; }
 
 /*# sourceMappingURL=main.css.map */

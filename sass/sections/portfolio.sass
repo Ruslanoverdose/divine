@@ -1,0 +1,44 @@
+$silver2: #eee
+$boxShadow2: 0 0px 10px 2px rgba(0, 0, 0, 0.1)
+$boxShadow3: 0 0px 15px 4px rgba(2, 173, 136, 0.15)
+$silver: #757575
+
+#portfolio
+    background-image: url(../img/22.png)
+    height: auto
+    .works 
+        display: flex 
+        flex-wrap: wrap
+        justify-content: center
+    .work 
+        width: 30%  
+        margin-right: 20px
+        margin-bottom: 20px
+        box-sizing: border-box
+        box-shadow: $boxShadow2
+        background: #fff 
+        transition: .3s all
+        position: relative
+        bottom: 0
+        &:hover 
+            bottom: 5px
+            box-shadow: $boxShadow3
+        &__cover
+            border-bottom: 1px solid $silver2
+            border-top: 1px solid $silver2
+            margin-bottom: 20px
+        &__title 
+            padding: 5px 15px
+        &__desc 
+            color: $silver
+            font-size: .9rem
+            line-height: 1.2
+            margin-bottom: 20px
+            padding: 0 15px
+        &__bottom
+            padding: 0 15px
+            font-size: 14px
+            margin-bottom: 10px
+        img 
+            width: 100%
+            
