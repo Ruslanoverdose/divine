@@ -1,0 +1,22 @@
+.field {
+  width: 100%;
+  margin-bottom: 20px; }
+  .field input, .field textarea {
+    width: 100%;
+    border: 1px solid #f6f6f6;
+    padding: 0 20px;
+    outline: none;
+    transition: 0.3s all; }
+    .field input:focus, .field textarea:focus {
+      border-color: #02ad88; }
+    .field input::placeholder, .field textarea::placeholder {
+      color: #eee; }
+    .field input:focus::placeholder, .field textarea:focus::placeholder {
+      color: #fff; }
+  .field textarea {
+    resize: none;
+    height: 400px; }
+  .field input {
+    line-height: 2.8rem; }
+
+/*# sourceMappingURL=contacts.css.map */

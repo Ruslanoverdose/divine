@@ -5,6 +5,13 @@
     bottom: 5px; }
   100% {
     bottom: 15px; } }
+@keyframes icons {
+  0% {
+    bottom: 0; }
+  50% {
+    bottom: 10px; }
+  100% {
+    bottom: 0px; } }
 #header {
   background-image: url(../img/11.png);
   height: 100%;
