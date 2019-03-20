@@ -22,7 +22,6 @@
     display: flex;
     flex-wrap: wrap; }
   #features .feature {
-    width: 30%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -45,9 +44,9 @@
     #features .feature__title {
       color: #fff;
       font-weight: bold;
+      text-align: center;
       text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
     #features .feature__desc {
-      font-size: 1rem;
       line-height: 1.5;
       color: #fff;
       text-align: center;

@@ -14,6 +14,7 @@ $boxShadow2: 0 0px 10px 2px rgba(0, 0, 0, 0.1)
 @import "sections/process.sass"
 @import "sections/contacts.sass"
 @import "sections/footer.sass"
+@import "media/media.sass"
 
 
 
@@ -69,7 +70,9 @@ body, html, .wrapper
     display: flex 
     justify-content: center 
     align-items: center
-    flex-direction: column
+    flex-direction: column 
+    img 
+        width: 100%
 
 .bgLight 
     background-color: $bglight
@@ -107,21 +110,19 @@ section
         border-color: $greenDark
 .columns
     display: flex
+    flex-wrap: wrap
     &__column
         display: flex
         align-items: center
-        width: 50%
         padding-left: 50px 
     .column-title
         width: 90%
         h1 
             color: $blackColor
-            font-size: 5rem
             font-weight: bolder 
             text-transform: uppercase
     .column-content 
         ol 
-            font-size: 2.5rem
             font-weight: bolder
             counter-reset:  item
             line-height: 1.5
@@ -133,12 +134,10 @@ section
                     content: "0" counter(item) ". "
                     counter-increment: item
                     position: relative
-                    font-size: 4.5rem
                 span
                     font-weight: bold
                     color: $blackColor
                     position: relative
-                    left: -10px
 button 
     font-size: 14px
     cursor: pointer

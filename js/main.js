@@ -1,6 +1,12 @@
 $(function() {
     window.addEventListener("scroll", scroll)
-    
+    $(".next").on("click","a", function (event) {
+		event.preventDefault();
+        console.log('asd')
+        let id  = "#services"
+        let top = $(id).offset().top;
+		$('body,html, #wrapper').animate({scrollTop: top - 69}, 1000);
+	});
 });
 
 function scroll() {
@@ -19,3 +25,6 @@ function scroll() {
         $("#navigation nav").removeClass('scrollStart') 
     }
 }
+
+ 
+	

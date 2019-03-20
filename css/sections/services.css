@@ -6,7 +6,8 @@
     transition: 0.2s all ease-in-out;
     border-radius: 3px;
     position: relative;
-    bottom: 0; }
+    bottom: 0;
+    margin-bottom: 20px; }
     #services .service:hover {
       bottom: 10px; }
     #services .service a {
