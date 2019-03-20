@@ -4,7 +4,6 @@
   .field input, .field textarea {
     width: 100%;
     border: 1px solid #f6f6f6;
-    padding: 0 20px;
     outline: none;
     transition: 0.3s all; }
     .field input:focus, .field textarea:focus {
@@ -15,8 +14,10 @@
       color: #fff; }
   .field textarea {
     resize: none;
-    height: 400px; }
+    height: 400px;
+    padding: 20px; }
   .field input {
-    line-height: 2.8rem; }
+    line-height: 2.8rem;
+    padding: 0 20px; }
 
 /*# sourceMappingURL=contacts.css.map */

@@ -13,6 +13,7 @@ $boxShadow2: 0 0px 10px 2px rgba(0, 0, 0, 0.1)
 @import "sections/features.sass"
 @import "sections/process.sass"
 @import "sections/contacts.sass"
+@import "sections/footer.sass"
 
 
 
@@ -120,19 +121,19 @@ section
             text-transform: uppercase
     .column-content 
         ol 
-            font-size: 3rem
+            font-size: 2.5rem
             font-weight: bolder
             counter-reset:  item
+            line-height: 1.5
             li 
                 color: #eee
-                margin-bottom: 50px
                 position: relative
                 list-style-type: none
                 &:before
                     content: "0" counter(item) ". "
                     counter-increment: item
                     position: relative
-                    font-size: 5rem
+                    font-size: 4.5rem
                 span
                     font-weight: bold
                     color: $blackColor
