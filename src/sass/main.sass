@@ -1,0 +1,145 @@
+$openSans: "Open Sans", sans-serif
+$blackColor: #1c223a
+$greenLight: #02ad88
+$greenDark: #017b60
+$bglight: #f9faff
+$boxShadow: 0px 10px 30px 0px rgba(2, 173, 136, 0.4)
+$boxShadow2: 0 0px 10px 2px rgba(0, 0, 0, 0.1)
+
+@import "sections/navigation.sass"
+@import "sections/header.sass"
+@import "sections/services.sass"
+@import "sections/portfolio.sass"
+@import "sections/features.sass"
+@import "sections/process.sass"
+@import "sections/contacts.sass"
+@import "sections/footer.sass"
+@import "media/media.sass"
+
+
+
+body 
+    font-family: "Open Sans", sans-serif
+    font-weight: 400
+    color: $blackColor
+
+body, html, .wrapper
+    height: 100%
+
+.pd70 
+    padding: 70px 0
+    
+.bgGreen 
+    background: $greenLight
+.background
+    background-position: center center
+    background-repeat: no-repeat
+    background-attachment: scroll
+    background-size: cover
+.background2 
+    background-size: auto
+    background-position: top right
+    background-repeat: no-repeat
+.background3 
+    background: $greenLight
+.bg4 
+    background-size: auto
+    background-position: top center
+    background-repeat: no-repeat
+
+.caption 
+    display: flex 
+    justify-content: center
+    flex-direction: column
+    height: 100%
+    h1,h2,h3,h4,h5 
+        font-family: 'M PLUS Rounded 1c', sans-serif
+        font-weight: bold
+    h5 
+        font-size: 1.4rem
+    h1 
+        font-size: 4rem
+        margin-bottom: 1.2rem
+        color: $greenLight
+    p 
+        margin-bottom: 30px
+        font-size: 16px
+        line-height: 1.7
+.picture 
+    display: flex 
+    justify-content: center 
+    align-items: center
+    flex-direction: column 
+    img 
+        width: 100%
+
+.bgLight 
+    background-color: $bglight
+
+
+section 
+    .title 
+        margin-bottom: 50px
+        h1 
+            font-weight: bold
+.customLink
+    border: 2px solid $greenLight
+    color: $greenLight
+    box-shadow: $boxShadow
+    padding: 7px 10px
+    font-weight: 500
+    transition: .3s all
+    &:hover 
+        text-decoration: none
+        color: #fff
+        background: $greenDark
+        border-color: $greenDark
+.customButton 
+    border: 2px solid $greenLight
+    color: #fff
+    box-shadow: $boxShadow
+    padding: 7px 10px
+    font-weight: 500
+    transition: .3s all
+    background: $greenLight
+    &:hover 
+        text-decoration: none
+        color: #fff
+        background: $greenDark
+        border-color: $greenDark
+.columns
+    display: flex
+    flex-wrap: wrap
+    &__column
+        display: flex
+        align-items: center
+        padding-left: 50px 
+    .column-title
+        width: 90%
+        h1 
+            color: $blackColor
+            font-weight: bolder 
+            text-transform: uppercase
+    .column-content 
+        ol 
+            font-weight: bolder
+            counter-reset:  item
+            line-height: 1.5
+            li 
+                color: #eee
+                position: relative
+                list-style-type: none
+                &:before
+                    content: "0" counter(item) ". "
+                    counter-increment: item
+                    position: relative
+                span
+                    font-weight: bold
+                    color: $blackColor
+                    position: relative
+button 
+    font-size: 14px
+    cursor: pointer
+    padding: 0
+    margin: 0
+    line-height: 1.5

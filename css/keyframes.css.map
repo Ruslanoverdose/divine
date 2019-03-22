@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;IAEQ,MAAM,EAAE,IAAI;;IAEZ,MAAM,EAAE,GAAG;;IAEX,MAAM,EAAE,IAAI;;;IAIZ,MAAM,EAAE,CAAC;;IAET,MAAM,EAAE,IAAI;;IAEZ,MAAM,EAAE,GAAG",
-"sources": ["../sass/keyframes.sass"],
-"names": [],
-"file": "keyframes.css"
-}

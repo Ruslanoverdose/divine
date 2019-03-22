@@ -1,0 +1,36 @@
+$blackColor: #1c223a
+$greenLight: #02ad88
+$boxShadow2: 0 0px 10px 2px rgba(0, 0, 0, 0.1)
+
+#navigation
+    
+    transition: .3s all ease-in-out
+    nav 
+        transition: .3s all ease-in-out
+    .nav-link 
+        font-size: 16px
+        font-weight: 600
+        transition: .3s all ease-in-out
+        color: $blackColor
+        &:hover, 
+            color: $greenLight
+    .active 
+        color: $greenLight
+    .scrollStart
+        padding: 34px 10px
+    .scrollChange
+        padding: 15px 10px
+.navStart 
+    background: transparent
+.navChange 
+    background: #fff
+    box-shadow: $boxShadow2
+.navRelative 
+    position: relative
+    background: #fff
+.navFixed
+    position: fixed
+    right: 0
+    top: 0
+    left: 0
+    z-index: 9999
