@@ -16,12 +16,12 @@ $(function() {
 		$('body,html, #wrapper').animate({scrollTop: top - 69}, 1000);
     });
     
-    // $("#navigation ul").on("click","a", function (event) {
-	// 	event.preventDefault();
-    //     let id  = $(this).attr('href')
-    //     let top = $(id).offset().top;
-	// 	$('body,html, #wrapper').animate({scrollTop: top - 69}, 1000);
-	// });
+    $("#navigation ul").on("click","a", function (event) {
+		event.preventDefault();
+        let id  = $(this).attr('href')
+        let top = $(id).offset().top;
+		$('body,html, #wrapper').animate({scrollTop: top - 69}, 1000);
+	});
 });
 
 function scroll() {
